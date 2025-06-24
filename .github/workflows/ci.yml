@@ -1,0 +1,42 @@
+
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    services:
+      mongo:
+        image: mongo:5.0
+        ports: [ '27017:27017' ]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: |
+        npm --prefix server ci
+        npm --prefix client ci
+
+    - name: Lint & Test (placeholder)
+      run: echo 'Add tests here'
+
+    - name: Build client
+      run: npm --prefix client run build
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: web-build
+        path: client/dist
