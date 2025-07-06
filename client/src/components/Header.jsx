@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import { useContext } from 'react';          // useContext нужен для темы
-import { ThemeContext } from '../theme.jsx'; // сам контекст темы
+import { useContext } from 'react';
+import { ThemeContext } from '../theme.jsx';
 import ThemeSwitcher from './ThemeSwitcher.jsx';
 import LanguageSwitcher from './LanguageSwitcher.jsx';
 import logoDark from '../assets/talix.png';
@@ -75,6 +75,7 @@ export default function Header() {
           <LinkBtn to="/about">{t('nav.about')}</LinkBtn>
           <LinkBtn to="/reviews">{t('nav.reviews')}</LinkBtn>
           <LinkBtn to="/contacts">{t('nav.contacts')}</LinkBtn>
+          <LinkBtn to="/merch">{t('nav.merch')}</LinkBtn>
         </Nav>
 
         <Switchers>

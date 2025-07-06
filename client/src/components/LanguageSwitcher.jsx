@@ -9,7 +9,7 @@ const Btn = styled.button`
   cursor: pointer;
   transition: background .25s, border-color .25s, color .25s;
 
-  /* LIGHT: спокойный фон + тонкий контур */
+
   background: rgba(0,0,0,.07);
   border-color: rgba(0,0,0,.12);
   color: var(--text);
@@ -17,12 +17,12 @@ const Btn = styled.button`
   /* HOVER в светлой */
   &:hover { background: rgba(0,0,0,.1); }
 
-  /* DARK overrides: ставим голограмму */
+
   [data-theme='dark'] & {
     background: var(--nav-active-bg);
     border-color: transparent;
     color: var(--nav-active-text);
-    &:hover { background: var(--nav-active-bg); } /* без мерцания */
+    &:hover { background: var(--nav-active-bg); } 
   }
 `;
 

@@ -7,6 +7,7 @@ import About from './pages/About.jsx';
 import Contacts from './pages/Contacts.jsx';
 import Reviews from './pages/Reviews.jsx';
 import ProjectDetails from './pages/ProjectDetails.jsx';
+import Merch from './pages/Merch';
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />
+        <Route path="/merch" element={<Merch />} />
         <Route path="/reviews" element={<Reviews />} />
       </Route>
       <Route path="/projects/:id" element={<ProjectDetails/>}/>

@@ -5,7 +5,8 @@
     "projects": "Мои проекты",
     "about": "Обо мне",
     "reviews": "Отзывы",
-    "contacts": "Контакты"
+    "contacts": "Контакты",
+    "merch": "Мерч"
   },
   "welcomePhrases": [
     "Добро пожаловать!",
@@ -81,8 +82,32 @@
     "submit": "Отправить",
     "invalid": "Неверный код"
   },
+
+  "merch": {
+    "title": "Фирменный мерч",
+    "buy": "Купить",
+    "items": [
+      {
+        "id": "m1",
+        "name": "Футболка «Talix»",
+        "price": "₽1 490",
+        "img": "/assets/merch/tshirt.jpg",
+        "link": "https://t.me/your_shop_bot?start=tshirt"
+      },
+      {
+        "id": "m2",
+        "name": "Стикер-пак",
+        "price": "₽290",
+        "img": "/assets/merch/stickers.jpg",
+        "link": "https://t.me/your_shop_bot?start=stickers"
+      }
+    ]
+  },
+
   "common": {
     "empty": "— Пока тут пусто —",
     "copyright": "© 2025 TALIX. Все права защищены."
   }
+
 }
+

@@ -101,7 +101,7 @@ export default function Contacts() {
                     </ContactBtn>
 
                     <ContactBtn
-                        href="https://github.com/yourusername"      /* ← свой GitHub */
+                        href="https://github.com/Xlvq"
                         target="_blank"
                         rel="noreferrer"
                         aria-label="GitHub"

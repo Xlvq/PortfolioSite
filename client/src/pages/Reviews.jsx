@@ -108,7 +108,7 @@ export default function Reviews() {
           )}
         </Center>
 
-        {/* пример копирайта - если он здесь, иначе убери */}
+        {/* копирайт, пусть пока будет так */}
         {/* <small style={{display:'block',marginTop:'4rem',textAlign:'center'}}>
         {t('common.copyright')}
       </small> */}

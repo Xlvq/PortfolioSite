@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import ProjectCard from '../components/ProjectCard.jsx';
-import frame from '../assets/Frame.png';       // <-- PNG лежит в src/assets
+import frame from '../assets/Frame.png';
 
 const Container = styled.main`padding:2rem;`;
 const Grid = styled.div`
@@ -15,7 +15,7 @@ export default function Projects() {
     const { t } = useTranslation();
     const raw = t('projects.list', { returnObjects: true });
 
-    // подставляем frame вместо строки "Frame.png"
+
     const projects = raw.map(p => ({ ...p, img: frame }));
 
     return (

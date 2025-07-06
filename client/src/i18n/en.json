@@ -1,56 +1,62 @@
 {
   "nav": {
     "home": "Home",
-    "projects": "My Projects",
-    "about": "About Me",
+    "projects": "Projects",
+    "about": "About me",
     "reviews": "Reviews",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "merch": "Merch"
   },
+
   "welcomePhrases": [
     "Welcome!",
-    "Hi, friend!",
-    "A professional's portfolio.",
+    "Hey there, friend!",
+    "A professional portfolio.",
     "Get inspired by code.",
     "Design starts here.",
-    "You're on the right page.",
+    "You’re on the right page.",
     "Projects that work.",
     "A modern approach.",
     "Minimalism is power.",
     "Quality without compromise."
   ],
+
   "projects": {
-    "title": "My Projects",
-    "stackTitle": "Stack",
+    "title": "My projects",
+    "stackTitle": "Tech stack",
     "demo": "Demo",
     "back": "Back",
-    "notFound": "no such project",
+    "notFound": "project not found",
+
     "list": [
       {
         "id": "p1",
         "name": "FinanceBOT",
-        "desc": "Telegram bot for personal finance tracking and paid subscriptions.",
-        "details": "FinanceBOT is a Telegram bot that helps you manage personal finance right in chat.\n\n### Key Features\n• **Transactions** — add income/expenses, view balance, history of operations.\n• **Budget & Goals** — set a monthly limit, track progress toward goals.\n• **Reports** — period summary, charts, CSV export.\n• **Paid Plan** — payment verification and renewal reminders.\n\n### Tech stack\nPython 3.12 • Aiogram 3 • SQLite + SQLModel • Docker • CI/CD (GitHub Actions → Docker Hub)",
-        "stack": ["Python","Aiogram","SQLite","Docker"],
+        "desc": "Telegram-bot for convenient personal-finance tracking and paid-subscription management.",
+        "details": "FinanceBOT is a Telegram bot that lets you manage personal finances right in the chat.\n\n### Key features\n• **Transaction log** — add income/expense, view balance and history.\n• **Budget & goals** — set a monthly limit and track goal progress.\n• **Reports** — period summaries, charts, CSV export.\n• **Paid plans** — payment checks and renewal reminders.\n\n### Tech\nPython 3.12 • Aiogram 3 • SQLite + SQLModel • Docker • CI/CD (GitHub Actions → Docker Hub)",
+        "stack": ["Python", "Aiogram", "SQLite", "Docker"],
         "img": "Frame.png",
         "gh": "https://github.com/Xlvq/FinanceBOT",
         "demo": "https://t.me/financial_diary_bot"
       },
+
       {
         "id": "p2",
         "name": "Classic Coffee",
-        "desc": "Telegram bot for pre-ordering coffee without waiting in line.",
-        "details": "Classic Coffee lets you order a drink in advance so you arrive to a ready cup.\n\n#### Features\n• Menu with photos and prices.\n• Payment via Telegram Pay.\n• \"Your drink is ready\" notifications.\n• Barista web-panel to mark order status.\n\n#### Stack\nPython • Aiogram • FastAPI (admin API) • PostgreSQL • Docker Compose.",
-        "stack": ["Python","Aiogram","PostgreSQL"],
+        "desc": "Telegram bot for ordering coffee in advance, no waiting in line.",
+        "details": "Classic Coffee lets you place an order ahead so you can pick up your ready cup.\n\n#### Features\n• Menu with photos and prices.\n• Payments via Telegram Pay.\n• “Your drink is ready” notifications.\n• Web panel for barista status updates.\n\n#### Stack\nPython • Aiogram • FastAPI (admin API) • PostgreSQL • Docker Compose.",
+        "stack": ["Python", "Aiogram", "PostgreSQL"],
         "img": "Frame.png",
         "gh": "https://github.com/Xlvq/Coffee",
         "demo": "https://t.me/ClassicCoffee_bot"
       },
+
       {
         "id": "p3",
         "name": "School Diary Bot",
-        "desc": "Electronic diary in Telegram: grades, alerts, statistics.",
-        "details": "A Telegram bot that completely replaces the traditional electronic diary.\n\n* Student login via token.\n* Grades table, average by subject.\n* Push notifications about new marks.\n* Performance statistics and a quarter chart.\n\nBuilt with Aiogram 3 + Router modules, async MongoDB driver, PyTest.",
-        "stack": ["Python","Aiogram","MongoDB"],
+        "desc": "Electronic diary: grades, alerts, statistics ― all in Telegram.",
+        "details": "A Telegram bot that completely replaces the classic e-diary.\n\n* Student login by token.\n* Grade table and subject GPA.\n* Push alerts for new marks.\n* Performance stats and term chart.\n\nArchitecture — Aiogram 3 + modular routers, async MongoDB driver, PyTest.",
+        "stack": ["Python", "Aiogram", "MongoDB"],
         "img": "Frame.png",
         "gh": "https://github.com/Xlvq/DNEVNIK",
         "demo": "https://t.me/My_schoool_Journal_Bot"
@@ -61,25 +67,55 @@
   "about": {
     "name": "Egor Dmitriev",
     "sections": [
-      { "title": "Description", "text": "I'm a Python developer from Irkutsk! I create services and Telegram bots and keep the code clean and readable. I enjoy leisurely walks along the riverfront, quality coffee, and problems that are fun to solve. If you'd like to discuss something interesting, I'm always happy to chat!" },
-      { "title": "Work Experience", "text": "Freelance projects in bot development. Personal projects." },
+      {
+        "title": "Profile",
+        "text": "I’m a Python developer based in Irkutsk.\nI build services and Telegram bots, keeping the code clean and readable.\nI enjoy unhurried walks by the river, quality coffee, and problems worth solving.\nGot something interesting in mind? Let’s chat!"
+      },
+      { "title": "Experience", "text": "Freelance bot projects. Personal projects." },
       { "title": "Education", "text": "SAMSUNG IT SCHOOL, Sudo Teach IT, Algorithmics" },
-      { "title": "My Stack", "text": "Python, Aiogram, SQL, Docker, FastAPI, Linux, Git" },
-      { "title": "Hobbies", "text": "I love playing guitar, drinking coffee, writing code, drinking coffee, learning new things, drinking coffee. And in general—living life and drinking coffee." }
+      { "title": "My stack", "text": "Python, Aiogram, SQL, Docker, FastAPI, Linux, Git" },
+      {
+        "title": "Hobbies",
+        "text": "I love playing guitar, drinking coffee, writing code, drinking coffee, learning new things, drinking coffee. In short — living and drinking coffee."
+      }
     ]
   },
+
   "contacts": {
     "title": "Contacts",
-    "desc": "You can reach me via social networks:"
+    "desc": "Feel free to reach me on social media:"
   },
+
   "reviews": {
     "title": "Reviews",
     "name": "Name",
-    "code": "Client Code",
-    "text": "Review Text",
+    "code": "Client code",
+    "text": "Review text",
     "submit": "Send",
     "invalid": "Invalid code"
   },
+
+  "merch": {
+    "title": "Branded merch",
+    "buy": "Buy",
+    "items": [
+      {
+        "id": "m1",
+        "name": "“Talix” T-shirt",
+        "price": "₽1 490",
+        "img": "/assets/merch/tshirt.jpg",
+        "link": "https://t.me/your_shop_bot?start=tshirt"
+      },
+      {
+        "id": "m2",
+        "name": "Sticker pack",
+        "price": "₽290",
+        "img": "/assets/merch/stickers.jpg",
+        "link": "https://t.me/your_shop_bot?start=stickers"
+      }
+    ]
+  },
+
   "common": {
     "empty": "— Nothing here yet —",
     "copyright": "© 2025 TALIX. All rights reserved."

@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
 import avatar    from '../assets/photo_2025-06-23_19-32-25.jpg';
-import hack1     from '../assets/photo_2025-06-24_00-09-06.jpg';   // 👈 ваши фото
+import hack1     from '../assets/photo_2025-06-24_00-09-06.jpg';
 import hack2     from '../assets/photo_2025-06-24_00-08-58.jpg';
 import hack3     from '../assets/photo_2025-06-24_00-09-12.jpg';
 
@@ -10,11 +10,11 @@ import hack3     from '../assets/photo_2025-06-24_00-09-12.jpg';
 const Main = styled.main`
     padding: 2rem;
     display: grid;
-    grid-template-columns: 220px 1fr auto;   /* аватар | текст | галерея-колонка */
+    grid-template-columns: 220px 1fr auto;  
     gap: 2rem;
 
     @media (max-width: 760px) {
-        grid-template-columns: 1fr;            /* всё в один столбец */
+        grid-template-columns: 1fr;           
     }
 `;
 
@@ -53,17 +53,17 @@ const Gallery = styled.ul`
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;      /* вертикальный столбик */
+    flex-direction: column;      
     gap: .8rem;
 
     @media (max-width: 760px) {
-        flex-direction: row;       /* на мобилке превращаемся в ленту */
+        flex-direction: row;       
         overflow-x: auto;
         margin-top: 1.2rem;
     }
 `;
 const Shot = styled.li`
-    width: 110px;            /* одинаковый размер превью */
+    width: 110px;            
     height: 110px;
     border-radius: 8px;
     overflow: hidden;

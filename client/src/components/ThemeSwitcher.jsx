@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { ThemeContext } from '../theme.jsx';
 import styled from 'styled-components';
-import { FiSun, FiMoon } from 'react-icons/fi';   // или любая другая пара иконок
+import { FiSun, FiMoon } from 'react-icons/fi';
 
 /* ---------- styled ---------- */
 
@@ -19,8 +19,8 @@ const Btn = styled.button`
   /* фон зависит от темы */
   background: ${({ $dark }) =>
     $dark
-        ? 'var(--nav-active-bg)'          // градиент в тёмной теме
-        : 'rgba(0,0,0,0.08)'};            // лёгкая подложка в светлой
+        ? 'var(--nav-active-bg)'         
+        : 'rgba(0,0,0,0.08)'};            
 
   color: ${({ $dark }) =>
     $dark ? 'var(--nav-active-text, #111)' : '#111'};
@@ -30,7 +30,7 @@ const Btn = styled.button`
 
   &:hover { transform: scale(1.1); }
 
-  /* убираем фокус-контур, но оставляем для accessibility */
+
   &:focus { outline: 2px solid transparent; }
   &:focus-visible { outline: 2px solid currentColor; }
 `;

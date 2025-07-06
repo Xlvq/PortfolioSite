@@ -1,10 +1,10 @@
-// src/pages/ProjectDetails.jsx
+
 import ReactMarkdown from 'react-markdown';
 import styled        from 'styled-components';
-import { useParams, Link } from 'react-router-dom';   // ← добавили Link
+import { useParams, Link } from 'react-router-dom';
 import { useTranslation }  from 'react-i18next';
 
-/* helper: строит URL вида /assets/Frame.ab12c3.png */
+
 function resolveAsset(file) {
     return new URL(`../assets/${file}`, import.meta.url).href;
 }
@@ -47,7 +47,6 @@ export default function ProjectDetails() {
         );
     }
 
-    /* превращаем "Frame.png" → реальный URL */
     const imgSrc = resolveAsset(project.img);
 
     return (

@@ -10,7 +10,7 @@
   --nav-active-text: #111111;
 }
 
-/* dark theme overrides */
+/* темная тема */
 [data-theme='dark'] {
   --bg: #121212;
   --text: #fafafa;
