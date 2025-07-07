@@ -100,6 +100,34 @@
         "price": "₽290",
         "img": "/assets/merch/stickers.jpg",
         "link": "https://t.me/your_shop_bot?start=stickers"
+      },
+      {
+        "id": "m3",
+        "name": "Худи «Talix»",
+        "price": "₽3 690",
+        "img": "/assets/merch/tshirt.jpg",
+        "link": "https://t.me/your_shop_bot?start=tshirt"
+      },
+      {
+        "id": "m4",
+        "name": "Кружка «Talix»",
+        "price": "₽2390",
+        "img": "/assets/merch/tshirt.jpg",
+        "link": "https://t.me/your_shop_bot?start=tshirt"
+      },
+      {
+        "id": "m5",
+        "name": "M5 «Talix»",
+        "price": "₽3 690",
+        "img": "/assets/merch/tshirt.jpg",
+        "link": "https://t.me/your_shop_bot?start=tshirt"
+      },
+      {
+        "id": "m6",
+        "name": "M6 «Talix»",
+        "price": "₽2390",
+        "img": "/assets/merch/tshirt.jpg",
+        "link": "https://t.me/your_shop_bot?start=tshirt"
       }
     ]
   },
